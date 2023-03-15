@@ -19,10 +19,10 @@ class GameTest {
 
     @BeforeEach
     public void setUp() {
-        game.register(one);
-        game.register(two);
-        game.register(three);
-        game.register(four);
+        game.register("Petya", one);
+        game.register("Kolya", two);
+        game.register("Sveta", three);
+        game.register("Olya", four);
     }
 
     @Test
